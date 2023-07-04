@@ -1,0 +1,46 @@
+input {
+  width: 30px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.product {
+  height: 200px;
+  width: 250px;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 10px;
+}
+.allProducts {
+  color: red;
+}
+.totalPriceH1 {
+  color: green;
+}
+.namePara {
+  font-weight: bold;
+}
+.emptyCart {
+  color: red;
+  font-weight: bold;
+}
+.btn {
+  height: auto;
+  width: auto;
+  border-radius: 2px;
+  background-color: coral;
+  color: white;
+}
+table {
+  font-family: arial sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solod #dddddd;
+  text-align: left;
+  padding: 8px;
+}
